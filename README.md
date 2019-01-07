@@ -48,10 +48,23 @@ couleur_crayon( (255,0,0) ) # couleur du crayon en rouge - avec un tuple
 couleur_crayon( 0,255,0 ) # couleur du crayon en vert - sans utilisation de tuple
 ```
 
+Plusieurs couleurs de base sont déjà définie dans `init.py` .
+
+```
+COULEURS = [ROUGE,ORANGE,JAUNE,CHARTREUSE,VERT,SARCELLE,CYAN,AZURE,BLEU,VIOLET,MAGENTA,ROSE]
+```
+
+Il est donc possible de saisir `couleur_crayon( ROSE )` .
+
+D'autres couleurs sont définies dans le fichier `couleur.py` qu'il est possible d'utiliser une fois chargé avec `import couleur` .
+
 # Exemples
 Il y a quelques exemples dans le sous répertoire /exemples/, par exemple demo_00.py
 
-Il est possible de le charger et l'exécuter à l'aide de ` from exemples.demo_00 import * `
+Il est possible de le charger et l'exécuter à l'aide de ` from exemples.demo_00 import * ` mais le fichier chargé devra alors contenir la ligne de code 
+```
+from init import *
+```
 
 # Ressources
 * [Documentation de Turtle Graphics](https://docs.python.org/3.3/library/turtle.html) en anglais

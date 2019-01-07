@@ -56,9 +56,10 @@ ROSE = (255,192,203)
 
 COULEURS = [ROUGE,ORANGE,JAUNE,CHARTREUSE,VERT,SARCELLE,CYAN,AZURE,BLEU,VIOLET,MAGENTA,ROSE]
 
-# prépare une configuration par défaut
-setup( 640, 480 )
-colormode( 255 ) # passe en RGB 0..255
-forme( TORTUE )
-init()
-print( 'Bienvenu sur le Python Turtle Francophile!')
+if __name__ == "__main__":
+	# prépare une configuration par défaut
+	setup( 640, 480 )
+	colormode( 255 ) # passe en RGB 0..255
+	forme( TORTUE )
+	init()
+	print( 'Bienvenu sur le Python Turtle Francophile!')

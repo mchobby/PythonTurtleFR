@@ -40,6 +40,22 @@ def init(): # équivalent du reset
 	reset()
 	lt( 90 ) # pointer vers le haut
 
+# Couleurs fondamentales
+ROUGE = (255,0,0)
+ORANGE = (255,165,0)
+JAUNE = (255,255,0) 
+CHARTREUSE = (127,255,0)
+VERT = (0,255,0)
+SARCELLE = (0,128,128)
+CYAN = (0,255,255)
+AZURE = (240,255,255)
+BLEU = (0,0,255)
+VIOLET = (238,130,238)
+MAGENTA = (255,0,255)
+ROSE = (255,192,203)
+
+COULEURS = [ROUGE,ORANGE,JAUNE,CHARTREUSE,VERT,SARCELLE,CYAN,AZURE,BLEU,VIOLET,MAGENTA,ROSE]
+
 # prépare une configuration par défaut
 setup( 640, 480 )
 colormode( 255 ) # passe en RGB 0..255
